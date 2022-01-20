@@ -16,6 +16,9 @@ linux
 > sudo su 
 > apt update && apt full-upgrade
 > tee  to send output to file 
+
+go to /tmp as low level user
+
 *************RECON
 =============NMAP
 nmap <ip address> -n --top-ports 1000 -T5 
@@ -187,7 +190,9 @@ verify
 > ps for services
 > getuid
 >  screenshot
-
+&&&&&&&&&&Priv esc&&&&&&&&
+> unix-privesc-check    
+    
 ports
 
 445 smb
